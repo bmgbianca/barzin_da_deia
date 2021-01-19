@@ -6,7 +6,7 @@ function App() {
 
   const playVideos = () => {
     const audio = document.querySelector('audio');
-    audio.volume = 0.4;
+    audio.volume = 0.7;
     const videos = document.querySelectorAll('video');
 
     if (audio.paused && audio.currentTime < 5) {
