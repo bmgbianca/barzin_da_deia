@@ -109,47 +109,104 @@ function App() {
             src="/videos/bianca_0.mp4"
             muted
             loop
+            playsInline
           >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="4" className="quel" src="/videos/quel_0.mp4" muted loop>
+          <video
+            id="4"
+            className="quel"
+            src="/videos/quel_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="5" className="taina" src="/videos/taina_0.mp4" muted loop>
+          <video
+            id="5"
+            className="taina"
+            src="/videos/taina_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="8" className="maira" src="/videos/maira_0.mp4" muted loop>
+          <video
+            id="8"
+            className="maira"
+            src="/videos/maira_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="6" className="carol" src="/videos/carol_0.mp4" muted loop>
+          <video
+            id="6"
+            className="carol"
+            src="/videos/carol_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="7" className="thay" src="/videos/thay_0.mp4" muted loop>
+          <video
+            id="7"
+            className="thay"
+            src="/videos/thay_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="2" className="brau" src="/videos/brau_0.mp4" muted loop>
+          <video
+            id="2"
+            className="brau"
+            src="/videos/brau_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="0" className="ana" src="/videos/ana_0.mp4" muted loop>
+          <video
+            id="0"
+            className="ana"
+            src="/videos/ana_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="10" className="pri" src="/videos/pri_0.mp4" muted loop>
+          <video
+            id="10"
+            className="pri"
+            src="/videos/pri_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
@@ -160,12 +217,20 @@ function App() {
             src="/videos/marina_0.mp4"
             muted
             loop
+            playsInline
           >
             Vídeo não suportado.
           </video>
         </div>
         <div className="videoWrapper">
-          <video id="1" className="alice" src="/videos/alice_0.mp4" muted loop>
+          <video
+            id="1"
+            className="alice"
+            src="/videos/alice_0.mp4"
+            muted
+            loop
+            playsInline
+          >
             Vídeo não suportado.
           </video>
         </div>
