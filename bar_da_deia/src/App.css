@@ -304,13 +304,13 @@ video {
     right: 10%;
     width: 10%;
     padding: 3px;
-    font-size: 0.3rem;
+    font-size: 0.5rem;
     z-index: 100;
   }
 
   button:hover {
-    width: 10%;
-    font-size: 0.5rem;
+    width: 8%;
+    font-size: 0.3rem;
   }
 
   .friends {
@@ -326,7 +326,7 @@ video {
 
   .cerveja {
     position: absolute;
-    top: 72%;
+    top: 77%;
     right: 19%;
     width: 8%;
     animation: rotate 1s infinite;
@@ -334,25 +334,25 @@ video {
 
   .cerveja2 {
     position: absolute;
-    top: 72%;
+    top: 77%;
     right: 14%;
     width: 6.1%;
     animation: rotate2 1s infinite;
   }
 
   .mesa {
-    top: 86%;
+    bottom: 0%;
     width: 20%;
   }
 
   .openBar {
-    top: 90%;
+    top: 94%;
     width: 20%;
   }
 
   .cadeira {
     width: 22%;
-    top: 84%;
+    top: 90%;
     right: 3.5%;
   }
 }
