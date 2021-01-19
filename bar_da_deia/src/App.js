@@ -1,23 +1,26 @@
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [start, setStart] = useState(null);
+
   const playVideos = () => {
     const audio = document.querySelector('audio');
     audio.volume = 0.4;
     const videos = document.querySelectorAll('video');
 
-    console.log(audio.paused);
-    console.log(audio.currentTime);
-    if (audio.paused && audio.currentTime === 0) {
+    if (audio.paused && audio.currentTime < 5) {
       audio.play();
 
       for (let i = 0; i < videos.length; i++) {
         const currentVideo = videos[i];
         currentVideo.play();
       }
-      setTimeout(() => {
+      const playFirstVideo = setTimeout(() => {
         changeVideo('0');
       }, 5000);
+
+      setStart(playFirstVideo);
     } else if (!audio.paused) {
       audio.pause();
 
@@ -25,6 +28,7 @@ function App() {
         const currentVideo = videos[i];
         currentVideo.pause();
       }
+      clearTimeout(start);
     } else {
       audio.play();
 

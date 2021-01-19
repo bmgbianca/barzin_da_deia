@@ -195,14 +195,6 @@ video {
   animation: rotate2 1s infinite;
 }
 
-@keyframes blink {
-  from {
-    filter: sepia(0%);
-  }
-  to {
-    filter: sepia(70%);
-  }
-}
 @keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
@@ -266,6 +258,15 @@ video {
   animation: blink 0.2s infinite;
 }
 
+@keyframes blink {
+  from {
+    filter: sepia(0%);
+  }
+  to {
+    filter: sepia(70%);
+  }
+}
+
 .cadeira {
   width: 15%;
   position: absolute;
@@ -274,10 +275,6 @@ video {
 }
 
 @media only screen and (max-width: 480px), (orientation: portrait) {
-  .folhas1 {
-    left: 2.5%;
-  }
-
   .frame {
     display: none;
   }
@@ -293,7 +290,7 @@ video {
   .sol {
     left: 4.5%;
     top: 1.5%;
-    width: 15%;
+    width: 20%;
   }
 
   .faixaSummer {
@@ -308,6 +305,7 @@ video {
     width: 10%;
     padding: 3px;
     font-size: 0.3rem;
+    z-index: 100;
   }
 
   button:hover {
@@ -317,7 +315,7 @@ video {
 
   .friends {
     position: relative;
-    padding-top: 20%;
+    padding-top: 16%;
     padding-left: 4%;
   }
 
@@ -328,7 +326,7 @@ video {
 
   .cerveja {
     position: absolute;
-    top: 45%;
+    top: 72%;
     right: 19%;
     width: 8%;
     animation: rotate 1s infinite;
@@ -336,9 +334,25 @@ video {
 
   .cerveja2 {
     position: absolute;
-    top: 45%;
+    top: 72%;
     right: 14%;
     width: 6.1%;
     animation: rotate2 1s infinite;
+  }
+
+  .mesa {
+    top: 86%;
+    width: 20%;
+  }
+
+  .openBar {
+    top: 90%;
+    width: 20%;
+  }
+
+  .cadeira {
+    width: 22%;
+    top: 84%;
+    right: 3.5%;
   }
 }
