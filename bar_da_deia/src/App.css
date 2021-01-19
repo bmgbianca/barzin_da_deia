@@ -302,9 +302,9 @@ video {
   button {
     top: 1%;
     right: 10%;
-    width: 10%;
+    width: 8%;
     padding: 3px;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     z-index: 100;
   }
 
@@ -326,7 +326,7 @@ video {
 
   .cerveja {
     position: absolute;
-    top: 77%;
+    top: 80%;
     right: 19%;
     width: 8%;
     animation: rotate 1s infinite;
@@ -334,25 +334,25 @@ video {
 
   .cerveja2 {
     position: absolute;
-    top: 77%;
+    top: 80%;
     right: 14%;
     width: 6.1%;
     animation: rotate2 1s infinite;
   }
 
   .mesa {
-    bottom: 0%;
+    bottom: -10%;
     width: 20%;
   }
 
   .openBar {
-    top: 94%;
+    top: 96%;
     width: 20%;
   }
 
   .cadeira {
     width: 22%;
-    top: 90%;
+    top: 92%;
     right: 3.5%;
   }
 }
