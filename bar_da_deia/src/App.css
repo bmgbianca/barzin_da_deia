@@ -326,7 +326,7 @@ video {
 
   .cerveja {
     position: absolute;
-    top: 80%;
+    top: 81%;
     right: 19%;
     width: 8%;
     animation: rotate 1s infinite;
@@ -334,25 +334,25 @@ video {
 
   .cerveja2 {
     position: absolute;
-    top: 80%;
+    top: 81%;
     right: 14%;
     width: 6.1%;
     animation: rotate2 1s infinite;
   }
 
   .mesa {
-    bottom: -10%;
+    top: 90%;
     width: 22%;
   }
 
   .openBar {
-    top: 97%;
+    top: 98%;
     width: 20%;
   }
 
   .cadeira {
     width: 24%;
-    top: 92%;
+    top: 94%;
     right: 3.5%;
   }
 }
