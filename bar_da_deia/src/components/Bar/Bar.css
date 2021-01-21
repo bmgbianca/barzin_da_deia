@@ -1,0 +1,433 @@
+audio {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dosis/v18/HhyaU5sn9vOmLzloC_WoEoZK.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.background {
+  background-image: url('../summer_2_background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.folhas1 {
+  width: 5%;
+  position: absolute;
+}
+
+.frame {
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 7%;
+  width: 83%;
+}
+
+.frameV {
+  display: none;
+}
+
+.sol {
+  position: absolute;
+  z-index: 10;
+  left: 2%;
+  top: 1.5%;
+  width: 12%;
+  animation: shine 0.3s infinite;
+}
+
+@keyframes shine {
+  from {
+    filter: none;
+  }
+  to {
+    filter: hue-rotate(270deg);
+  }
+}
+
+.faixaSummer {
+  position: absolute;
+  z-index: 20;
+  left: 30%;
+  width: 38%;
+}
+
+.folhas2 {
+  width: 12%;
+  position: absolute;
+  right: 0%;
+}
+
+.friends {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 9%;
+  z-index: 0;
+}
+
+.videoWrapper {
+  height: 16vw;
+  width: 15%;
+  overflow: hidden;
+  margin: 0.5%;
+  border: 2px solid #ff006e;
+  background-image: url('../tela.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+video {
+  position: relative;
+}
+
+.bianca {
+  width: 100%;
+  top: -15%;
+}
+
+.quel {
+  width: 100%;
+  top: -15%;
+}
+
+.taina {
+  width: 115%;
+  top: -10%;
+  left: -9%;
+}
+
+.maira {
+  width: 135%;
+  top: -30%;
+  left: -17%;
+}
+
+.carol {
+  width: 100%;
+  top: -15%;
+}
+
+.thay {
+  width: 100%;
+  top: -5%;
+}
+
+.brau {
+  width: 130%;
+  top: -55%;
+  left: -5%;
+}
+
+.ana {
+  width: 105%;
+  top: -23%;
+  left: 0%;
+}
+
+.pri {
+  width: 115%;
+  left: -10%;
+}
+
+.marina {
+  width: 100%;
+  top: -20%;
+}
+
+.alice {
+  width: 100%;
+  top: -17%;
+}
+
+.playButton {
+  width: 115px;
+  height: 10vh;
+  margin-top: 8%;
+  margin-left: 2.5%;
+  padding: 1%;
+  background-color: #ff006e;
+  border: none;
+  box-shadow: 2px 2px #f5d1e0;
+  border-radius: 15px 15px 15px 15px;
+  font-family: 'Dosis';
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.fa-play,
+.fa-pause {
+  margin: 0 0.3rem;
+  font-size: 1rem;
+}
+
+.playButton:hover {
+  width: 100px;
+  font-size: 1rem;
+  box-shadow: none;
+}
+
+.cerveja {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 91%;
+  width: 4.5%;
+  animation: rotate 1s infinite;
+}
+
+.cerveja2 {
+  position: relative;
+  margin-top: 0%;
+  margin-left: -1%;
+  width: 3.5%;
+  animation: rotate2 1s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.mesa {
+  position: relative;
+  margin-top: 8%;
+  left: 1.2%;
+  width: 14%;
+}
+
+.openBar {
+  position: relative;
+  margin-bottom: 1%;
+  margin-left: 27.5%;
+  width: 14%;
+  animation: blink 0.2s infinite;
+}
+
+@keyframes blink {
+  from {
+    filter: sepia(0%);
+  }
+  to {
+    filter: sepia(70%);
+  }
+}
+
+.cadeira {
+  width: 15%;
+  position: relative;
+  margin-bottom: 1%;
+  margin-left: 28%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .playButton {
+    width: 90px;
+    margin-top: 6%;
+    font-size: 1rem;
+  }
+
+  .fa-play,
+  .fa-pause {
+    font-size: 0.8rem;
+  }
+
+  .playButton:hover {
+    width: 75px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .playButton {
+    width: 70px;
+    margin-top: 5%;
+    font-size: 0.8rem;
+  }
+
+  .fa-play,
+  .fa-pause {
+    font-size: 0.6rem;
+  }
+
+  .playButton:hover {
+    width: 60px;
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+  .folhas1 {
+    width: 8%;
+  }
+
+  .frame {
+    display: none;
+  }
+
+  .frameV {
+    display: inline-block;
+    width: 83%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 7%;
+  }
+
+  .sol {
+    width: 15%;
+  }
+
+  .faixaSummer {
+    width: 42%;
+  }
+
+  button {
+    top: 15px;
+    right: 10%;
+    width: 60px;
+    font-size: 0.6rem;
+    z-index: 100;
+  }
+
+  button:hover {
+    width: 60px;
+    font-size: 0.6rem;
+    box-shadow: none;
+  }
+
+  .folhas2 {
+    width: 18%;
+  }
+
+  .friends {
+    margin-top: 12%;
+    margin-left: 11.5%;
+  }
+
+  .videoWrapper {
+    height: 29vw;
+    width: 28%;
+  }
+
+  .playButton {
+    width: 45px;
+    height: 5vh;
+    margin-top: 4%;
+    margin-left: 4%;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.6rem;
+  }
+
+  .fa-play,
+  .fa-pause {
+    margin: 0 0.2rem;
+    font-size: 0.4rem;
+  }
+
+  .playButton:hover {
+    width: 45px;
+    font-size: 0.6rem;
+  }
+
+  .cerveja {
+    margin-top: 120%;
+    margin-left: 75%;
+    width: 6%;
+    animation: none;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .cerveja2 {
+    margin-left: -1.5%;
+    margin-top: 1%;
+    width: 4.5%;
+    animation: none;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+
+  .mesa {
+    margin-top: -10%;
+    width: 25%;
+  }
+
+  .openBar {
+    margin-bottom: 13%;
+    margin-left: 18.5%;
+    width: 20%;
+  }
+
+  .cadeira {
+    width: 22%;
+    position: relative;
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
