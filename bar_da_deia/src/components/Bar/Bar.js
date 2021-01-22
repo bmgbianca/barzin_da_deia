@@ -6,7 +6,7 @@ export default function Bar() {
 
   useEffect(() => {
     const audio = document.querySelector('audio');
-    audio.volume = 0.7;
+    audio.volume = 0.4;
     const videos = document.querySelectorAll('video');
     audio.play();
 
@@ -28,7 +28,7 @@ export default function Bar() {
 
   const playVideos = () => {
     const audio = document.querySelector('audio');
-    audio.volume = 0.7;
+    audio.volume = 0.4;
     const videos = document.querySelectorAll('video');
 
     if (audio.paused && audio.currentTime < 5) {
@@ -84,6 +84,11 @@ export default function Bar() {
     video1.src = `/videos/${video1.className}_1.mp4`;
     video1.loop = false;
     video1.muted = false;
+    if (id === '9' || id === '10') {
+      video1.volume = 1.0;
+    } else {
+      video1.volume = 0.7;
+    }
     video1.play();
     video1.addEventListener('ended', unchangeVideo, false);
   };
