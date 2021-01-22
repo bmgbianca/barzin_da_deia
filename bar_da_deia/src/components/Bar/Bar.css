@@ -299,10 +299,40 @@ video {
 }
 
 @media only screen and (max-width: 800px) {
+  .frame {
+    width: 90%;
+    margin-left: 3%;
+  }
+
+  .friends {
+    width: 85%;
+    margin-left: 5.5%;
+    margin-top: 10%;
+  }
+
+  .videoWrapper {
+    width: 14.5%;
+  }
+
   .playButton {
     width: 70px;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-left: 4%;
     font-size: 0.8rem;
+  }
+
+  .cerveja {
+    position: absolute;
+    width: 4%;
+    margin-top: 38%;
+    margin-left: 79%;
+  }
+
+  .cerveja2 {
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 82%;
+    width: 3%;
   }
 
   .fa-play,
@@ -313,6 +343,24 @@ video {
   .playButton:hover {
     width: 60px;
     font-size: 0.6rem;
+  }
+
+  .mesa {
+    width: 17%;
+    margin-top: 38%;
+    margin-left: -2%;
+  }
+
+  .openBar {
+    margin-bottom: 2.5%;
+    margin-left: 24.5%;
+    width: 17%;
+  }
+
+  .cadeira {
+    width: 16%;
+    margin-bottom: 1%;
+    margin-left: 25.5%;
   }
 }
 
@@ -361,7 +409,7 @@ video {
 
   .friends {
     margin-top: 12%;
-    margin-left: 11.5%;
+    margin-left: 10.5%;
   }
 
   .videoWrapper {
@@ -390,6 +438,7 @@ video {
   }
 
   .cerveja {
+    position: relative;
     margin-top: 120%;
     margin-left: 75%;
     width: 6%;
@@ -402,6 +451,7 @@ video {
   }
 
   .cerveja2 {
+    position: relative;
     margin-left: -1.5%;
     margin-top: 1%;
     width: 4.5%;

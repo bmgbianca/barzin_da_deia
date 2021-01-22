@@ -53,7 +53,16 @@
   height: 20%;
   width: 30%;
   padding: 2%;
-  animation: up 7s infinite;
+  animation: up 8s infinite;
+}
+
+.balao1,
+.balao2 {
+  width: 100%;
+}
+
+.balao2 {
+  margin-top: 200px;
 }
 
 .parabens {
@@ -87,10 +96,10 @@
 
 @keyframes up {
   from {
-    margin-top: 70vh;
+    margin-top: 90vh;
   }
   to {
-    margin-top: -37%;
+    margin-top: -120%;
   }
 }
 
@@ -192,7 +201,7 @@
   }
 
   .mensagem {
-    padding-top: 31vh;
+    padding-top: 220px;
     font-size: 0.8rem;
     line-height: 1rem;
   }
@@ -204,7 +213,7 @@
 
 @media only screen and (max-width: 480px) {
   .parabens {
-    height: 13vh;
+    height: 85px;
     font-size: 1.5rem;
     border-radius: 100%;
     padding: 5% 0%;
@@ -216,7 +225,7 @@
   }
 
   .mensagem {
-    padding-top: 15vh;
+    padding-top: 95px;
     font-size: 0.6rem;
     line-height: 0.8rem;
   }
@@ -249,8 +258,9 @@
   .nome {
     padding-top: 3%;
   }
+
   .mensagem {
-    padding-top: 30vh;
+    padding-top: 220px;
     font-size: 1rem;
     line-height: 1.2rem;
   }

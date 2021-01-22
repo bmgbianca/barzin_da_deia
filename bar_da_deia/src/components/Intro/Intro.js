@@ -6,22 +6,38 @@ export default function Intro() {
   return (
     <main className="mainBackground">
       <section className="head">
-        <img
-          src="/static_resources/baloons.png"
-          type="image/png"
-          alt="balões"
-          className="baloes"
-        />
+        <div className="baloes">
+          <img
+            src="/static_resources/baloons.png"
+            type="image/png"
+            alt="balões"
+            className="balao1"
+          />
+          <img
+            src="/static_resources/baloons.png"
+            type="image/png"
+            alt="balões"
+            className="balao2"
+          />
+        </div>
         <h1 className="parabens">
           FELIZ <br />
           ANIVERSÁÁÁÁRIO, <span className="nome"> DEIA!</span>
         </h1>
-        <img
-          src="/static_resources/balloons2.png"
-          type="image/png"
-          alt="balões"
-          className="baloes"
-        />
+        <div className="baloes">
+          <img
+            src="/static_resources/balloons2.png"
+            type="image/png"
+            alt="balões"
+            className="balao1"
+          />
+          <img
+            src="/static_resources/balloons2.png"
+            type="image/png"
+            alt="balões"
+            className="balao2"
+          />
+        </div>
       </section>
       <section className="mensagem">
         <p className="msg1">SEJA BEM-VINDA AOS 30 ANOS!</p>
@@ -43,7 +59,8 @@ export default function Intro() {
         <br />
         <p>
           ENTÃO, PARA ENTRAR NAQUELE CLIMINHA BÃO DE BARZIN COM OS MIGOS, CLICA
-          NO BOTÃO AÍ DO LADO E VEM CURTIR UM POUQUINHO COM A GENTE :){' '}
+          NO BOTÃO AÍ EMBAIXO E VEM CURTIR UM POUQUINHO COM A GENTE{' '}
+          <span style={{ marginLeft: '5px' }}>:)</span>{' '}
         </p>
         <Link to="/bar-com-os-migos">
           <button className="nextPage">BORA CURTIR!</button>
